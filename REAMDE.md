@@ -17,7 +17,7 @@ Install libaries
   npm i -S aws-amplify aws-amplify-react uuid 
 ```
 
-## Setup
+## Setup AWS Amplify
 - Install AWS Amplify CLI
 ```
   npm i -g @aws-amplify/cli
@@ -26,3 +26,12 @@ Install libaries
 ```
   amplify configure
 ```
+Create config files under ~/.aws
+
+
+## Init Amplify project
+```
+  cd my-amplify-app
+  amplify init
+```
+
